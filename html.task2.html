@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <p>
+            <label>Student Name:</label><br>
+            <input type="text" name="studentName">
+        </p>
+
+        <p>
+            <label>Email:</label><br>
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            <label>Password:</label><br>
+            <input type="password" name="password">
+        </p>
+
+        <p>
+            <label>Age:</label><br>
+            <input type="number" name="age">
+        </p>
+
+        <p>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </p>
+
+        <p>
+            <label>Skills:</label><br>
+            <input type="checkbox" name="skills" value="HTML"> HTML
+            <input type="checkbox" name="skills" value="CSS"> CSS
+            <input type="checkbox" name="skills" value="Java"> Java
+        </p>
+
+        <p>
+            <label>Date of Birth:</label><br>
+            <input type="text" name="dob" placeholder="dd-mm-yyyy">
+        </p>
+
+        <p>
+            <label>Department:</label><br>
+            <input type="text" name="department" value="CSE">
+        </p>
+
+        <p>
+            <label>Address:</label><br>
+            <textarea name="address" rows="3" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+
+</body>
+</html>
